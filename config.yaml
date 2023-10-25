@@ -1,0 +1,21 @@
+allocations:
+  preferences_path: './data/preferences.csv'
+  students_path: './data/students.csv'
+  excluded_path: './data/excluded.csv'
+  output_path: './data/allocations.csv'
+  num_top: 10 # Nombre de meilleures allocations dans l'output
+  def_preference: 13  # Voeu par défaut (n-ième voeu)
+  num_topics: 15 # Nombre de sujets
+  group_size: 3 # Nombre d'élèves par groupe
+  gender_ratio: 0.3  # Plancher pour les filles et les garçons
+  same_class_ratio: 0.8  # Plafond pour élèves de la même classe
+  use_dummy_data: False  # Si True, utilise les données fictives. Si False, utilise les données réelles.
+
+tests:
+  num_students: 60
+  num_preferences: 5
+  num_excluded_pairs: 0
+  num_classes: 8
+  output_path: './data/'
+  allocs_output_path: './data/test_allocations.csv'
+  seed: 123515  # Si vous souhaitez fixer un seed pour la génération aléatoire, insérez un nombre ici.
