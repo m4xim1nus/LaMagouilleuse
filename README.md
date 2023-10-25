@@ -7,7 +7,7 @@ Un outil pour aider les professeurs à répartir les élèves entre différents 
 ## Installation
 
 1. **Clonez le dépôt** :
-`git clone [URL_DU_REPO]`
+`git clone [https://github.com/m4xim1nus/LaMagouilleuse]`
 
 2. **Mettez en place un environnement virtuel** (recommandé) :
 `python -m venv venv`
